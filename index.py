@@ -1,12 +1,6 @@
 import streamlit as st
 from components.helper import vis1, vis2, vis3, vis4, vis5, vis6
 
-#packages
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 st.title("🌚 Insider Trading")
 
 #Intro

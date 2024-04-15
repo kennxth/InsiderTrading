@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 
 senateWatcherData = pd.read_csv('./SenatorCleaned.csv')
 InsiderTrading = pd.read_csv('./all_transactions.csv')
