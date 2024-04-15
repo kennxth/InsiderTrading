@@ -1,0 +1,53 @@
+Name,Party,State,Committee(s),Portfolio Gain %,Chairman?,Largest Holding,Shares of Holding,Current Stock Price,Percentage of Portfolio,Value of Largest Holding,Total Portfolio Value,Stock Sector,Recent Trade?,Action,Ticker,Amount,Date Reported
+Mark Green,Republican,Tennessee,Homeland Security ,239.74%,Y,NGL,"2,436,240",6,53.05,14617440,27554081.06,Energy (Oil & Gas),Y,Sell,NGL,"$100,001-$250,000",04-07-2024
+Chuck Fleischmann,Republican,Tennessee,"Science, Space and Technology",96.26%,N,DKNG,"5,160",44.22,21.94,228175.2,1039996.35,Consumer Cyclical,N,N/A,N/A,N/A,N/A
+Ron Wyden,Democrat,Oregon,Finance ,306.92%,Y,NVDA,"1,710",881.86,54.88,1507980.6,2747778.06,Technology (Semiconductors),N,N/A,N/A,N/A,N/A
+David Kustoff,Republican ,Tennessee,Ways and Means (Tax),192.83%,N,NVDA,670,881.86,28.7,590846.2,2058697.56,Technology (Semiconductors),Y,Buy,NVDA,"$15,001-$50,000",11-30-2023
+Jared Moskowitz,Democrat,Florida,Oversight and Accountability,23.66%,N,CMI,"1,290",298.63,25.21,385232.7,1528094.8,Industrial,Y,Sell,SBCF,"$15,001-$50,000",01-22-2024
+Tina Smith ,Democrat,Minnesota,"Banking, Housing and Urban Affairs",51.89%,N,AORT,"157,250",20.46,55.88,3217335,5757578.74,Financial,Y,Buy,AORT,"$50,001-$100,000",03-12-2024
+Michael Guest,Republican ,Mississippi,Ethics,81.83%,Y,CHRD,"2,060",187.12,24.92,385467.2,1546818.62,Energy (Oil & Gas),Y,Buy,NVDA,"$1,001-$15,000",10-17-2022
+Suzan DelBene,Democrat,Washington,Ways and Means (Tax),76.19%,N,MSFT,340,421.9,100,143446,143446,Technology (Software),Y,Sell,MSFT,"$100,001-$250,000",03-08-2024
+Majorie Green,Republican ,Georgia,Homeland Security ,54.65%,N,V,"2,630",275.96,9.2,725774.8,7888856.52,Financial,Y,Buy,UPS,"$15,001-$50,000",06-20-2022
+Mike Kelly,Republican ,Pennsylvania,Ways and Means (Tax),27.41%,N,CLF,"70,040",21.64,98.28,1515665.6,1542191.29,Basic Materials (Steel),N,N/A,N/A,N/A,N/A
+Earl Blumenauer,Democrat,Oregon,Ways and Means (Tax),23.79%,N,ERJ,"19,480",24.85,5.76,484078,8404131.94,Industrial,Y,Buy,AMZN,"$15,001-$50,000",03-02-2024
+Seth Moulton,Democrat,Massachusetts,Transportation and Infrastructure,116.92%,N,AMZN,570,186.13,100,106094.1,106094.1,Technology (Software),Y,Sell,ATVI,"$500,001-$1,000,000",09-15-2023
+Victoria Spartz,Republican,Indiana,Judiciary,23.12%,N,SPG,"84,280",144.81,100,12204586.8,12204586.8,Real Estate,Y,Buy,SPG,"$50,001-$100,000",02-15-2024
+John Rutherford,Republican,Florida,Appropriations (Allocate funds),49.77%,N,NCLH,"17,400",17.77,100,309198,309198,Consumer Cyclical,N,N/A,N/A,N/A,N/A
+Robert Aderholt,Republican,Alabama,Appropriations (Allocate funds),41.18%,Y,AAPL,480,176.55,100,84744,84744,Technology (Software),N,N/A,N/A,N/A,N/A
+Markwayne Mullin,Republican,Oklahoma,"Health, Education, Labor & Pensions",138.76%,N,AMZN,"5,250",186.13,14.01,977182.5,6974892.93,Technology (Software),Y,Buy,AAPL,"$50,001-$100,000",01-26-2024
+Mitch McConnell,Republican,Kentucky,Appropriations (Allocate funds),34.72%,N,WFC,"33,870",56.47,95.51,1912638.9,2002553.55,Financial,N,N/A,N/A,N/A,N/A
+Diana Harshbarger,Republican,Tennessee,Energy and Commerce,33.88%,N,AVGO,"3,420","1,344.07",6.87,4596719.4,66910034.93,Technology (Semiconductors),Y,Sell,KO,"$1,001-$15,000",03-02-2023
+Kathy Manning,Democrat,North Carolina,Foreign Affairs,134.55%,N,NVDA,"4,700",881.86,19.63,4144742,21114325.01,Technology (Semiconductors),Y,Sell,AAPL,"$15,001-$50,000",02-06-2024
+Susie Lee,Democrat,Nevada,Appropriations (Allocate funds),84.71%,N,VRT,"14,790",83.89,11.75,1240733.1,10559430.64,Healthcare,Y,Sell,AQUA,"$15,001-$50,000",05-19-2023
+Blake Moore,Republican,Utah,Ways and Means (Tax),54.88%,N,AAPL,"5,430",176.55,17.55,958666.5,5462487.18,Technology (Software),Y,Buy,SPY,"$100,001-$250,000",01-24-2024
+Andrew Garbarino,Republican,New York ,Capital Markets ,59.86%,Y,GPS,"3,450",22.5,76.8,77625,101074.22,Consumer Cyclical,N,N/A,N/A,N/A,N/A
+Pete Sessions,Republican,Texas,Financial Services,285.11%,N,NVDA,"2,880",881.86,50.23,2539756.8,5056254.83,Technology (Semiconductors),Y,Buy,NVDA,"$1,001-$15,000",09-13-2023
+Nancy Pelosi,Democrat,California,Appropriations (Allocate funds),91.66%,N,MSFT,"151,750",421.9,19.87,64023325,322210996.5,Technology (Software),Y,Buy,NVDA,"$1,000,001-$5,000,000",12-21-2023
+Dan Sullivan,Republican,Arkansas,"Commerce, Science and Transportation",182.59%,N,NVDA,510,881.86,18.58,449748.6,2420606.03,Technology (Semiconductors),N,N/A,N/A,N/A,N/A
+Doug Lamborn,Republican,Colorado,Natural Resources,67.48%,N,NTAP,"5,440",101.81,100,553846.4,553846.4,Technology (Software),N,N/A,N/A,N/A,N/A
+John Curtis,Republican,Utah,Natural Resources,100.67%,N,NVDA,"1,250",881.86,9.79,1102325,11259703.78,Technology (Semiconductors),Y,Sell,AMZN,"$15,001-$50,000",12-15-2023
+Thomas Carper,Democrat,Delaware,Environment and Public Works,31.36%,Y,NVO,"2,720",124.51,6.76,338667.2,5009869.82,Healthcare,Y,Buy,LTHM,"$1,001-$15,000",03-29-2024
+Dan Meuser,Republican,Pennsylvania,Financial Services,58.89%,N,MSFT,"5,930",421.9,37.6,2501867,6653901.6,Technology (Software),Y,Sell,NVDA,"$250,001-$500,000",03-21-2024
+Morgan McGarvey,Democrat,Kentucky,Small Business,304.93%,N,NVDA,540,881.86,53.61,476204.4,888275.32,Technology (Semiconductors),Y,Buy,NVDA,"$1,001-$15,000",04-12-2023
+Ro Khanna,Democrat,California,Oversight and Accountability,47.38%,N,META,"8,650",511.9,2.88,4427935,153747743.1,Technology (Software),Y,Buy,PENN,"$1,000,001-$5,000,000",03-20-2024
+Robert Wittman,Republican,Virginia,Natural Resources,45.21%,N,AMZN,"2,740",186.13,10.49,509996.2,4861736.89,Technology (Software),Y,Sell,AMZN,"$1,001-$15,000",10-19-2023
+Dean Phillips,Democrat,Minnesota,Small Business,42.90%,N,MU,"6,300",122.52,3.77,771876,20474164.46,Technology (Semiconductors),N,N/A,N/A,N/A,N/A
+Deborah Ross,Democrat,North Carolina,"Science, Space and Technology",94.70%,N,AMD,"3,770",163.28,17.43,615565.6,3531644.29,Technology (Semiconductors),Y,Sell,MSFT,"$1,001-$15,000",04-14-2024
+Dwight Evans,Democrat,Pennsylvania,Ways and Means (Tax),29.53%,N,WMB,"8,480",38.08,11.94,322918.4,2704509.21,Energy (Oil & Gas),Y,Sell,HASI,"$1,001-$15,000",01-17-2024
+Debbie Schultz,Democrat,Florida,Appropriations (Allocate funds),31.44%,N,AGI,"20,080",15.21,37.56,305416.8,813143.77,Basic Materials (Gold),N,N/A,N/A,N/A,N/A
+Richard Blumenthal,Democrat,Connecticut,Judiciary,89.24%,N,APG,"240,970",38.56,34.82,9291803.2,26685247.56,Financial,Y,Sell,MSFT,"$500,001-$1,000,000",02-05-2024
+Josh Gottheimer,Democrat,New Jersey,Financial Services,55.04%,N,MSFT,"10,100",421.9,17.49,4261190,24363579.19,Technology (Software),Y,Buy,MSFT,"$1,000,001-$5,000,000",03-07-2024
+Johnathan Jackson,Democrat,Illinois,Agriculture,102.23%,N,NVDA,"1,220",881.86,10.17,1075869.2,10578851.52,Technology (Semiconductors),Y,Buy,LRCX,"$15,001-$50,000",02-15-2024
+Michael McCaul,Republican,Texas,Foreign Affairs,47.60%,Y,FIX,"78,180",307.58,4.63,24046604.4,519365105.8,Industrial,Y,Buy,D,"$250,001-$500,000",03-20-2024
+William Keating,Democrat,Massachusetts,Foreign Affairs,40.82%,N,MSFT,650,421.9,6.76,274235,4056730.77,Technology (Software),Y,Sell,BA,"$15,001-$50,000",03-12-2024
+Garret Graves,Republican,Louisiana,Aviation,211.09%,Y,COIN,"1,240",245.75,40.86,304730,745790.5,Financial,Y,Sell,COIN,"$1,001-$15,000",02-15-2024
+Daniel Goldman,Democrat,New York ,Homeland Security,61.46%,N,CRM,"10,530",294.32,28.42,3099189.6,10904959.89,Technology (Software),Y,Buy,LHX,"$50,001-$100,000",08-09-2023
+Pat Fallon,Republican,Texas,Armed Services,52.07%,N,FDX,"16,650",267.8,24.81,4458870,17972067.71,Industrial,Y,Buy,TWTR,"$50,001-$100,000",02-01-2022
+Brian Higgins,Democrat,New York ,Ways and Means (Tax),516.10%,N,NVDA,"2,610",881.86,100,2301654.6,2301654.6,Technology (Semiconductors),N,N/A,N/A,N/A,N/A
+Dan Newhouse,Republican,Washington,Appropriations (Allocate funds),54.23%,N,CRM,420,294.32,22.76,123614.4,543121.27,Technology (Software),Y,Buy,TSLA,"$1,001-$15,000",03-17-2023
+Don Beyer,Democrat,Virginia,Ways and Means (Tax),46.29%,N,COST,530,731.31,19.45,387594.3,1992772.75,Consumer Cyclical,N,N/A,N/A,N/A,N/A
+Dan Crenshaw,Republican,Texas,Energy and Commerce,109.60%,N,META,590,511.9,24.17,302021,1249569.71,Technology (Software),N,N/A,N/A,N/A,N/A
+Ed Case,Democrat ,Hawaii,Appropriations (Allocate funds),76.01%,N,MSFT,"2,970",421.9,99.86,1253043,1254799.72,Technology (Software),Y,Buy,MSFT,"$50,001-$100,000",05-03-2021
+David Rouzer,Republican,North Carolina,Transportation and Infrastructure,409.29%,N,NVDA,430,881.86,78.67,379199.8,482013.22,Technology (Semiconductors),Y,Buy,NVDA,"$1,001-$15,000",08-12-2021
+Sheldon Whitehouse,Democrat,Rhode Island,Budget,56.76%,Y,LLY,570,751.64,43.99,428434.8,973936.8,Healthcare,Y,Buy,SNOW,"$1,001-$15,000",01-18-2024
+Susan Collins,Republican,Maine,Appropriations (Allocate funds),276.36%,Y,NVDA,"14,790",881.86,48.53,13042709.4,26875560.27,Technology (Semiconductors),Y,Buy,NVDA,"$15,001-$50,000",02-17-2022

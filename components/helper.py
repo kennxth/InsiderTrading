@@ -216,7 +216,144 @@ fig2 = px.choropleth(grouped_data,
 
 fig2.update_geos(fitbounds="locations", visible=False)  
 fig2.update_layout(title_text='US Politicians by State', geo_scope='usa')
-fig2.show()
 
 def vis3():
     st.plotly_chart(fig2, use_container_width=True)
+
+file_path = 'Politicians_and_%_Gain_FINAL - Sheet1.csv'
+
+politicians_data = pd.read_csv(file_path)
+
+politicians_data['Portfolio Gain %'] = (
+    politicians_data['Portfolio Gain %'].str.replace('%', '').astype(float)
+)
+
+committee_data = politicians_data['Committee(s)'].str.split(',', expand=True).stack().reset_index(level=1, drop=True)
+committee_data.name = 'Committee'  
+
+df_expanded = politicians_data.drop('Committee(s)', axis=1).join(committee_data)
+
+grouped = df_expanded.groupby(['Committee', 'Chairman?'])['Portfolio Gain %'].mean().reset_index()
+
+fig4 = px.density_heatmap(
+    grouped, 
+    x='Chairman?', 
+    y='Committee', 
+    z='Portfolio Gain %', 
+    category_orders={"Chairman?": ["Y", "N"]},  
+    color_continuous_scale='Viridis',  
+    title='Heatmap of Average Portfolio Gain % by Committee and Chair Status'
+)
+
+fig4.update_layout(
+    xaxis_title="Chairman Status",
+    yaxis_title="Committee",
+    yaxis={'categoryorder':'total ascending'},  
+    coloraxis_colorbar=dict(title="Avg Portfolio Gain %"),
+    height=700
+)
+
+def vis4():
+    st.plotly_chart(fig4, use_container_width=True)
+    
+    import plotly.graph_objects as go
+
+politicians_data['Date Reported'] = pd.to_datetime(politicians_data['Date Reported'], errors='coerce')
+
+events = {
+    'Chips Bill Passed': '2023-08-09',
+    'Activision-Blizzard Acquisition by MSFT Completed': '2023-10-13',
+    'Additional Chips Investment by Government': '2024-03-20',
+    'Twitter Acquisition Start': '2022-04-14',
+    'Escalation of Worldwide Conflict': '2023-10',
+    'Bitcoin Price Surge': '2024-01-01',
+    'Initial Semiconductor Stock Boom (NVDA Earnings)': '2023-05-23',
+    'Continued Rapid Revenue Growth (NVDA Earnings)': '2023-11-21',
+    'Legalization of Sports Betting (Continuing)': '2023-01-01',
+    'Surge in Oil Prices': '2023-12-01',
+    'Surge in SPY Price:': '2024-01-01',
+    'Biden Administration Backs Effort to Standardize Tesla EV Charging Stations': '2023-12-19'
+}
+
+fig5 = go.Figure()
+
+fig5.add_trace(go.Scatter(
+    x=politicians_data['Date Reported'],
+    y=politicians_data['Name'],
+    mode='markers',
+    marker=dict(size=10, color=politicians_data['Action'].map({'Buy': 'green', 'Sell': 'red'})),
+    text=politicians_data['Action'] + " " + politicians_data['Ticker'] + ": " + politicians_data['Amount'],
+    hoverinfo='text',
+    name='Trades'
+))
+
+shapes = []
+for i, (event, date) in enumerate(events.items()):
+    shapes.append(dict(
+        type='line',
+        xref='x',
+        yref='paper',
+        x0=date,
+        y0=0,
+        x1=date,
+        y1=1,
+        line=dict(color='blue', width=2),
+        opacity=0.5,
+        visible=True  
+    ))
+
+buttons = []
+for i, (event, date) in enumerate(events.items()):
+    visible = [False] * len(events)
+    visible[i] = True  
+    event_date_str = pd.to_datetime(date).strftime('%B %d, %Y') 
+
+    buttons.append(dict(
+        label=f"{event} ({event_date_str})",  
+        method='update',
+        args=[{'visible': [True] + visible},  
+              {'title': f"Showing event: {event} on {event_date_str}",
+               'shapes': [dict(shapes[i], visible=True if visible[i] else False) for i in range(len(shapes))]}]
+    ))
+
+fig5.update_layout(
+    updatemenus=[{
+        'type': 'dropdown',
+        'x': 1.15,
+        'y': 1,
+        'showactive': True,
+        'active': 0,
+        'buttons': buttons
+    }],
+    title="Timeline of Politicians' Recent Large Stock Trades and Key Events",
+    xaxis_title="Date",
+    yaxis_title="Politician",
+    shapes=shapes,
+    showlegend=False,
+    height=1000
+)
+
+def vis5():
+    st.plotly_chart(fig5, use_container_width=True)
+    
+    politicians_data['Portfolio Gain %'] = politicians_data['Portfolio Gain %'].replace('%','',regex=True).astype(float)
+
+treemap_data = politicians_data[['State', 'Party', 'Committee(s)', 'Name', 'Largest Holding', 'Stock Sector', 'Portfolio Gain %']].dropna()
+treemap_data['Committee(s)'] = treemap_data['Committee(s)'].str.strip()  
+
+
+fig6 = px.treemap(treemap_data, 
+                 path=['Committee(s)','Stock Sector', 'Largest Holding', 'Name'], 
+                 values='Portfolio Gain %',
+                 color='Portfolio Gain %',
+                 color_continuous_scale='Greens',
+                 title=' ')
+
+fig6.update_layout(
+    width=1000,  
+    height=1000,  
+    margin=dict(l=10, r=10, t=50, b=20) 
+)
+
+def vis6():
+    st.plotly_chart(fig6, use_container_width=True)
