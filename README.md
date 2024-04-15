@@ -1,3 +1,3 @@
 # InsiderTrading
 
-# https://insidertrading.streamlit.app/
+# streamlit run index.py
